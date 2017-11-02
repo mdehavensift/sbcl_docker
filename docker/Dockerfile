@@ -10,5 +10,6 @@ RUN apt-get update && \
     sh make.sh && \
     sh install.sh && \
     apt-get purge -y git sbcl make gcc && \
-    rm -r /root/sbcl
+    rm -r /root/sbcl && \
+    rm -rf /var/lib/apt/lists/*
 
