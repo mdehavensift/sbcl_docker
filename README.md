@@ -1,2 +1,3 @@
 # sbcl_docker
-Docker container with SBCL
+
+A Dockerfile for creating an image with SBCL 1.4.0.
